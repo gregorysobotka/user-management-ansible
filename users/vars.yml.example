@@ -1,0 +1,7 @@
+---
+
+web_app_users:
+  - { name: test_user_1, create_home: yes, comment: "Users Comments Here", state: absent, remove: yes } # Remove User
+  - { name: test_user_2, create_home: yes, comment: "Users Comments Here", state: present } # Add User
+
+  

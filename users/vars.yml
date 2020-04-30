@@ -1,0 +1,4 @@
+---
+
+web_app_users:
+  - { name: user1, create_home: yes, comment: "" }
