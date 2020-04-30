@@ -1,5 +1,4 @@
 ---
 
 web_app_users:
-  - { name: user1, create_home: yes, comment: "test 1", state: absent, remove: yes }
-  - { name: user2, create_home: yes, comment: "test 2", state: present }
+  - { name: user1, create_home: yes, comment: "" }
