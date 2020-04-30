@@ -1,0 +1,11 @@
+--- 
+  - hosts: web_apps
+    become: true
+    tasks:
+      - name: Update Users
+        user:
+            name: "{{ item.name }}"
+            comment: "{{ item.comment }}"
+            create_home: "{{ item.create_home }}"
+            state: "{{ item.state }}"
+        with_items: "{{ web_app_users }}"
